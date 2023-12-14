@@ -42,6 +42,7 @@ a {
 
 p {
     font-size: 16px;
+    margin-top: 20px;
 }
 
 .hero {
@@ -87,6 +88,7 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+    margin-top: 40px;
 }
 
 
@@ -161,4 +163,42 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+@media screen and (max-width: 868px) {
+    img {
+        height: 140px;
+        width: 140px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .search-engine-optimization {
+        width: 100%;
+    }
+    .online-reputation-management {
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .header ul li {
+        font-size: 8px;
+    }
+
+    .benefits {
+        width: 90%;
+    }
+
+.hero {
+    height: 400px;
+}
+
+    
 }
