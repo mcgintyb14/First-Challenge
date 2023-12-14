@@ -1,7 +1,7 @@
 # First-Challenge
 
 ## Description
-In this challenge, I was given both an HTML and CSS starter code files and was tasked with fixing the linkages between the two, consolidating unnecessarily spearated code in both files, and make the website more accessible. This also included fixing the links in the header to be functional. 
+In this challenge, I was given both an HTML and CSS starter code files and was tasked with fixing the linkages between the two, consolidating unnecessarily spearated code in both files, and making the website more accessible. This also included fixing the links in the header to be functional. 
 
 As such, the deployed site has fixed the linkage between the CSS file and HTML file fromt he original starter code, which allowed the CSS styles and properties to be successfully applied to the site. Additionally, the HTML code was cleaned up significantly to make it more readable as well as accessible. This was done by changing unnecessary "div" elements to "section" elements, further increasing reasability and accessibility. Similar actions were taken for individual lines of the HTML file, such as grouping paragraph elements in one line to reduce the total lines of code in the file.
 
