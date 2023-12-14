@@ -168,7 +168,7 @@ p {
 @media screen and (max-width: 868px) {
     img {
         height: 140px;
-        width: 140px;
+        width: 160px;
     }
 
     .content {
@@ -183,13 +183,22 @@ p {
         width: 100%;
     }
 
-    .header h1 {
-        font-size: 15px;
-        margin-top: 15px;
+    .header {
+        display: flex;
+        flex-direction: column;
     }
 
-    .header ul li {
-        font-size: 8px;
+    #h1-header {
+        font-size: 22px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .links {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
     }
 
     .benefits {
