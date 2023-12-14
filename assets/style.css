@@ -54,8 +54,7 @@ p {
 }
 
 .float-left {
-    justify-content: flex-start;
-    order: -2;
+    float: left;
     margin-right: 25px;
     max-height: 200px;
 }
@@ -98,18 +97,8 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -117,9 +106,6 @@ p {
 }
 
 .search-engine-optimization {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -129,8 +115,6 @@ p {
 }
 
 .online-reputation-management {
-    display: flex;
-    flex-direction: row;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -148,9 +132,6 @@ p {
 }
 
 .social-media-marketing {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
